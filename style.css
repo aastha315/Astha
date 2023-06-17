@@ -338,29 +338,29 @@ span {
 }
 
 .progress-line.python span{
-    width: 90%;
+    width: 95%;
     }
     .progress-line.cpp span{
-    width: 88%;
+    width: 90%;
     }
     .progress-line.c span{
-    width: 95%;
+    width: 80%;
     }
     
     .progress-line.html span{
-    width: 80%;
+    width: 70%;
     }
     .progress-line.java span{
-    width: 60%;
+    width: 85%;
     }
     .progress-line.css span{
     width: 75%;
     }
     .progress-line.mongodb span{
-    width: 80%;
+    width: 85%;
     }
     .progress-line.php span{
-    width: 70%;
+    width: 85%;
     }
     .progress-line.mysql span{
     width: 90%;
