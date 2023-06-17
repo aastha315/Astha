@@ -337,26 +337,26 @@ span {
     }
 }
 
-.progress-line.python span{
+.progress-line.cpp span{
     width: 95%;
     }
-    .progress-line.cpp span{
+    .progress-line.c span{
     width: 90%;
     }
-    .progress-line.c span{
+    .progress-line.python span{
     width: 80%;
     }
     
-    .progress-line.html span{
+    .progress-line.java span{
     width: 70%;
     }
-    .progress-line.java span{
+    .progress-line.html span{
     width: 85%;
     }
     .progress-line.css span{
     width: 75%;
     }
-    .progress-line.mongodb span{
+    .progress-line.javascript span{
     width: 85%;
     }
     .progress-line.php span{
