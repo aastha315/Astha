@@ -1,93 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <div>
-        <div>
-            <h1>ASTHA SHARMA</h1>
-            <p> Contact : <a href="abcd.com">zorromehta@gmail.com</a></p>
-            <p> Linkedin : <a href="abcd.com">https://www.linkedin.com/in/astha-sharma-508845250/</a></p>
-            <p> Github : <a href="abcd.com">https://github.com/aastha315</a></p>
-        </div>
 
-        <table>
-            <tr>
-                <td>
-                    <img src="photo.jpeg" width="220" 
-                    height="250" alt="picx">
-                </td>
-                <td>
-                    <i>I possess a remarkable proficiency in both Data Structures and Algorithms (DSA) and web development. 
-                    When it comes to DSA, I effortlessly navigate through intricate problems, employing efficient and elegant solutions. 
-                    My expertise in web development allows me to create captivating interfaces, seamlessly blending HTML, CSS, and JavaScript 
-                    to craft intuitive and visually appealing user experiences.
-                    My skills in these domains are a testament to my dedication and continuous growth, empowering me to tackle complex challenges 
-                    with confidence and deliver exceptional results.</i>
-                </td>
-            </tr>
-        </table>
 
-        <section>
-                <h2>EDUCATION</h2>
-                <ul>
-                    <li>Bachelors Of Technology in Computer Science , CMR Technical Campus</li>
-                    <li>Kendriya Vidyalaya Hakimpet</li>
-                </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Astha Sharma Portfolio</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Portfolio.</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" style="--i:1;" class="active">Home</a>
+                <a href="#about" style="--i:2;">About</a>
+                <a href="#skills" style="--i:3;">Skills</a>
+                <a href="#portfolio" style="--i:4;">Portfolio</a>
+                <a href="#contact" style="--i:5;">Contact</a>
+
+
+
+
+            </nav>
+        </header>
+<!--------------HOME SECTION DESIGN--------------->
+        <section class="home" id="home">
+            <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Astha Sharma</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p> </p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/suryabhaskar.kamma/" style="--i:7;" TARGET = "_blank"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://github.com/aastha315" style="--i:10;" TARGET = "_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/astha-sharma-508845250/" style="--i:11;" TARGET = "_blank"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <!-- <a href="https://drive.google.com/file/d/1Cwbk_3RQMOpJTw6a6yEXO4XIv7h1Q35e/view?usp=sharing" class="btn" TARGET = "_blank">Download Resume</a> -->
+            </div>
+            <div class="home-img">
+                <img src="photo.jpeg" alt="">
+            </div>
         </section>
 
-        <section>
-            <h2>WORK EXPERIENCE</h2>
-            <h4>MENTORING INTERN, BEING ZERO PVT LTD</h4>
-            <p>DEC 2022 - MAR 2023</p>
-            <ul>
-                <li>Experience in mentoring around 300+ students in solving Data Structures and Algorithms (DSA) problems
-                    of varying difficulty levels, while assisting them in enhancing their problem-solving abilities.</li>
-                <li>Additionally, proficient in authoring high-quality DSA problems for the company's website.</li>
-            </ul>
+<!----------------------ABOUT SECTION DESIGN-------------->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="photo.jpeg" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Web Developer</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+
+                  <a href="#" class="btn">Read More</a>  
+
+
+            </div>
         </section>
 
-        <section>
-            <h2>SKILLS</h2>
-            <ul>
-                <li>C++</li>
-                <li>C</li>
-                <li>Python</li>
-                <li>Html</li>
-                <li>Css</li>
-                <li>Javascript</li>
-                <li>React</li>
-                <li>PHP</li>
-                <li>MySQL</li>
-                <li>Git</li>
-            </ul>
-        </section>
+<!-----------SKILLS SECTION------------------------->
+        <section class="skills" id="skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            
+            <div class="skills-bar">
+                <div class="bar">
+                    <div class="info">
+                        <span>PYTHON</span>
+                    </div>
+                    <div class="progress-line python"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>C++</span>
+                    </div>
+                    <div class="progress-line cpp"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>C</span>
+                    </div>
+                    <div class="progress-line c"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>JAVA</span>
+                    </div>
+                    <div class="progress-line java"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>MONGO DB</span>
+                    </div>
+                    <div class="progress-line mongodb"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>PHP</span>
+                    </div>
+                    <div class="progress-line php"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>MYSQL</span>
+                    </div>
+                    <div class="progress-line mysql"><span></span></div>
+                </div>
+            </div>
+</section>
+<!-----------------PORTFOLIO SECTION-------------------->
+            <section class="portfolio" id="portfolio">
+                <h2 class="heading">Latest <span>Project</span></h2>
+                <div class="portfolio-container">
+                    <div class="portfolio-box">
+                        <img src="webscraping.png" alt="">
+                        <div class="portfolio-layer">
+                            <h4>Web Scraping</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, recusandae!</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!------------CONTACT SECTION----------->
 
-        <section>
-            <h2>ACHIEVEMENTS</h2>
-            <ul>
-                <li>Stood first multiple times in college's weekly coding contest on Hackerearth(DSA and Aptitude based).</li>
-                <li>Stood 1st in Youth parliament in Hyderabad and represented Hyderabad at zonal level(K.V.S).</li>
-                <li>Participated in Leetcode’s 70+ contest with a max rating of 1754 and solved 370+ problems on the platform.</li>
-                <li>Solved around 1000+ DSA problems overall on platforms like Leetcode, GFG, Codechef, Codeforces,
-                    Hackerrank and Vjudge combined.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>PROJECTS</h2>
-            <h4>CD VISUALIZER</h4>
-            <ul>
-                <li>Utilized Typescript and ReactJs to visually analyze and compare Codeforces user profiles.
-                </li>
-                <li> Created interactive visualizations to facilitate data-driven insights for evaluating user performance</li>
-                <li>Github Link :</li>
-            </ul>
-        </section>
-    </div>
-</body>
+            <section class="contact" id="contact">
+                <h2 class="heading">Contact<span> Me!</span></h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email"placeholder="Email Address">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Mobile Number">
+                        <input type="text"placeholder="Email Subject">
+                    </div>
+                    <textarea name="" id=""cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </form>
+            </section>
+
+
+<!----------FOOTER SECTION----------->
+            <footer class="footer">
+                <div class="footer-text">
+                    <p>Copyright &copy; 2023 by Astha | All Rights Reserved.</p>
+                </div>
+                <div class="footer-iconTop">
+                    <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+                </div>
+            </footer>
+
+
+
+
+
+<!----------SCROLL REVEAL--------->
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+                
+        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+        <script src="script.js"></script>
+    </body>
+
 </html>
