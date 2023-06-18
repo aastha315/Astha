@@ -271,7 +271,17 @@ span {
     text-align: center;
     font-size: 4.5rem;
 }
+.about{
 
+        width: 100%;
+        border-radius: 10px;
+        padding: 25px 30px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 15px;
+}
 .about-content h2 {
     text-align: left;
     line-height: 1.2;
@@ -290,6 +300,7 @@ span {
     animation: slideTop 1s ease forwards;
     animation-delay: .7s;
 }
+
 
 .skills-bar{
     width: 100%;
