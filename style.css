@@ -137,7 +137,7 @@ span {
     animation-delay: 1s;
 }
 .home-img img{
-    max-width: 450px;
+    max-width: 350px;
     margin-right: -20px;
     opacity: 0;
     animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
@@ -262,7 +262,7 @@ span {
 }
 
 .about-img img {
-    width: 35vw;
+    width: 350;
     animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 2s, 3s;
 }
