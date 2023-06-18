@@ -282,6 +282,7 @@ span {
         grid-column-gap: 50px;
         grid-row-gap: 15px;
         border: 1px solid black;
+        margin: 0 auto;
 }
 .about-content h2 {
     text-align: left;
