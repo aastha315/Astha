@@ -68,9 +68,9 @@ section {
     animation: slideRight 1s ease forwards;
 }
 nav {
-    border-top: 1px solid black;    /* in place of the word "black", 
+    border-top: 3px solid black;    /* in place of the word "black", 
                                        you can use #000000 or rgb(0,0,0) */
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
 } 
 .navbar a {
     display: inline-block;
