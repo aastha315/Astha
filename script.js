@@ -15,7 +15,7 @@ var typed = new Typed(".multiple-text", {
     loop: true
 })
 
-var typed = new Typed(".multi-text", {
+var type = new Typed(".multi-text", {
     strings: ["I possess a remarkable proficiency in both Data Structures and Algorithms (DSA) and web development. When it comes to DSA, I effortlessly navigate through intricate problems, employing efficient and elegant solutions. My expertise in web development allows me to create captivating interfaces, seamlessly blending HTML, CSS, and JavaScript to craft intuitive and visually appealing user experiences. My skills in these domains are a testament to my dedication and continuous growth, empowering me to tackle complex challenges with confidence and deliver exceptional results."],
     typeSpeed: 100,
     backSpeed: 100,
