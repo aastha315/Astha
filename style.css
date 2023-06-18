@@ -572,16 +572,15 @@ content: "85%";
     background-color: #1175A8;
 }
 .input-box{
-
-    width: 200%;
+    width: 100%;
     border-radius: 10px;
     padding: 25px 30px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 50px;
+    grid-column-gap: 100px;
     grid-row-gap: 15px;
-    border: 1px solid balck
+    border: 1px solid black;
 }
 .footer{
     display: flex;
