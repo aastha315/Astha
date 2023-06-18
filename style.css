@@ -311,7 +311,7 @@ span {
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 50px;
     grid-row-gap: 15px;
-    border: 1px solid red;
+    border: 1px solid black;
 }
 
 .skills-bar .bar{
