@@ -67,11 +67,7 @@ section {
     opacity: 5;
     animation: slideRight 1s ease forwards;
 }
-nav {
-    border-top: 3px solid black;    /* in place of the word "black", 
-                                       you can use #000000 or rgb(0,0,0) */
-    border-bottom: 3px solid black;
-} 
+
 .navbar a {
     display: inline-block;
     font-size: 2rem;
@@ -83,13 +79,15 @@ nav {
     opacity: 100;
     animation: slideTop .5s ease forwards;
     animation-delay: calc(.2s * var(--i));
-}
-
-.navbar a:hover,
-.navbar a.active
- {
-    color: var(--main-color);
-}
+  }
+  
+  .navbar a:hover {
+    border-bottom: 3px solid black;
+  }
+  
+  .navbar a.active {
+    border-bottom: 3px solid black;
+  }
 
 #menu-icon {
     font-size: 3.6rem;
