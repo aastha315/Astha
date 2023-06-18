@@ -30,6 +30,9 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
 }
+img {
+    border-radius: 8px;
+  }
 
 section {
     min-height: 100vh;
