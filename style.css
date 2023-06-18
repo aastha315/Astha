@@ -574,7 +574,7 @@ content: "85%";
     background-color: #1175A8;
 }
 .input-box{
-    width: 120%;
+    width: 170%;
     border-radius: 10px;
     padding: 25px 30px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
@@ -583,6 +583,7 @@ content: "85%";
     grid-column-gap: 100px;
     grid-row-gap: 15px;
     border: 1px solid black;
+    margin: 0 auto;
 }
 .footer{
     display: flex;
