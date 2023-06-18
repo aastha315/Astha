@@ -8,7 +8,7 @@ menuIcon.onclick = () => {
 };
 
 var typed = new Typed(".multiple-text", {
-    strings: ["Web Developer", "Problem Solving Enthusiast","SDE Intern @ AMAZON"],
+    strings: ["Web Developer", "Problem Solving Enthusiast","DSA Freak","Competitive Programmer","SDE Intern @ AMAZON"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
