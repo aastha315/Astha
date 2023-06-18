@@ -70,7 +70,7 @@ section {
     font-weight: 500;
     margin-left: 4rem;
     transition: .3s;
-    opacity: 0;
+    opacity: 100;
     animation: slideTop .5s ease forwards;
     animation-delay: calc(.2s * var(--i));
 }
