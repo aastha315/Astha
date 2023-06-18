@@ -254,6 +254,8 @@ span {
 
 .about-img img {
     width: 35vw;
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 2s, 3s;
 }
 
 .heading {
@@ -264,14 +266,20 @@ span {
 .about-content h2 {
     text-align: left;
     line-height: 1.2;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
 }
 .about-content h3 {
     font-size: 2.6rem;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
 }
 
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
 }
 
 .skills-bar{
