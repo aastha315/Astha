@@ -548,17 +548,6 @@ content: "85%";
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.input-box{
-
-    width: 100%;
-    border-radius: 10px;
-    padding: 25px 30px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 15px;
-}
 
 .contact form .input-box input,
 .contact form textarea{
@@ -581,7 +570,17 @@ content: "85%";
 .contact form .btn{
     margin-top: 2rem;
 }
+.input-box{
 
+    width: 100%;
+    border-radius: 10px;
+    padding: 25px 30px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 15px;
+}
 .footer{
     display: flex;
     justify-content: space-between;
