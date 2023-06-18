@@ -85,6 +85,7 @@ section {
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
+    opacity: 4;
 }
 .home {
     position: relative;
