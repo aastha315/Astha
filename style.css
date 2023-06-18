@@ -273,7 +273,7 @@ span {
 }
 .about{
 
-        width: 100%;
+        width: width: 1200px;;
         border-radius: 10px;
         padding: 25px 30px;
         box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
@@ -281,6 +281,7 @@ span {
         grid-template-columns: repeat(2,1fr);
         grid-column-gap: 50px;
         grid-row-gap: 15px;
+        border: 1px solid black;
 }
 .about-content h2 {
     text-align: left;
