@@ -17,6 +17,7 @@
     --second-bg-color: #F6BE00;
     --text-color: #1175A8;
     --main-color: #1175A8;
+    --lang-color:black;
     --box-color:black;
 }
 
@@ -306,7 +307,7 @@ span {
 .skills-bar .bar .info span{
     font-size: 17px;
     font-weight: 500;
-    color:var(--text-color);
+    color:var(--lang-color);
     opacity: 0;
     animation: showText 0.5s 1s linear forwards;
 }
