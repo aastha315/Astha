@@ -474,21 +474,6 @@ content: "85%";
         margin: 0 auto;
 }
 
-.portfolio h2 {
-    margin-bottom: 2rem;
-}
-
-.portfolio-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 2.5rem;
-}
-
-.portfolio-box {
-    border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--bg-color);
-    overflow: hidden
-}
 
 .contact h2{
     margin-bottom:3rem;
